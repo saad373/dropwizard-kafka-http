@@ -19,7 +19,7 @@ import java.nio.charset.Charset;
 import java.util.*;
 
 @Path("/message")
-@Produces(MediaType.APPLICATION_JSON)
+@Produces(MediaType.TEXT_PLAIN)
 public class MessageResource {
     private KafkaProducer producer;
     private Properties consumerCfg;
