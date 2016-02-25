@@ -1,7 +1,7 @@
 producer:
   "metadata.broker.list": "signals-kafka-ec2.dev.impello.co.uk:9092"
   "serializer.class": "kafka.serializer.StringEncoder"
-  "bootstrap.servers": "localhost:9092"
+  "bootstrap.servers": "signals-kafka-ec2.dev.impello.co.uk:9092"
   "key.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer"
   "value.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer"
 
