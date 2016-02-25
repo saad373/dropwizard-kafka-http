@@ -1,12 +1,12 @@
 producer:
-  "metadata.broker.list": "localhost:9092"
+  "metadata.broker.list": "signals-kafka-ec2.dev.impello.co.uk:9092"
   "serializer.class": "kafka.serializer.StringEncoder"
   "bootstrap.servers": "localhost:9092"
   "key.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer"
   "value.serializer": "org.apache.kafka.common.serialization.ByteArraySerializer"
 
 consumer:
-  "zookeeper.connect": "127.0.0.1:2181"
+  "zookeeper.connect": "signals-kafka-ec2.dev.impello.co.uk:2181"
   "group.id": "group"
   "auto.offset.reset": "smallest"
   "consumer.timeout.ms": "500"
